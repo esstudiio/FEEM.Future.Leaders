@@ -1,0 +1,476 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000E2B;
+    color: white;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    background-color: #000E2B;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    width: 100%;
+    height: 50px;
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+/* Button styles */
+.button {
+    background-color: #FFC107;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #e6a800;
+}
+
+
+
+/* Hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("Group\ 48.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 48px;
+}
+
+.button {
+    background-color: #FFC107;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #e6a800;
+}
+
+
+
+
+
+
+/* Հիմնական կարգավորումներ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.goal-section {
+    margin-bottom: 100px;
+}
+
+/* Բաժնի վերնագիր */
+.goal-section h2 {
+    font-size: 30px;
+    color: #001C62;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+/* Գլխավոր կոնտեյներ */
+.goal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Յուրաքանչյուր բլոկ */
+.goal-box {
+    background: #f7fafa;
+    border-radius: 12px;
+    padding: 20px;
+    width: 350px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.goal-box p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000E2B;
+}
+
+/* Նշանի ձևավորում */
+.icon {
+    font-size: 15px;
+}
+
+
+
+
+/* Գլխավոր կոնտեյներ */
+.container {
+    width: 100%;
+    height: 650px;
+    padding: 0 140px 0 0;
+    background-color: #000E2B;
+    color: #FFC107;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container div img {
+    width: 700px;
+    height: 650px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+
+.text-content {
+    background-color: #000E2B;
+    position: relative;
+}
+
+.text-content h2 {
+    font-weight: bold;
+    color: #FFC107;
+    font-size: 30px;
+    margin-bottom: 48px;
+}
+
+.text-content p {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#absLogo {
+    position: absolute;
+    top: 290px;
+    left: 400px;
+}
+
+#absLogo img {
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+/* Գլխավոր կոնտեյներ */
+#container2 {
+    width: 100%;
+    margin: 40px 0;
+    text-align: left;
+    padding: 0 156px;
+    position: relative;
+}
+
+/* Վերնագիր */
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #001C62;
+    margin-bottom: 48px;
+    margin-top: 120px;
+}
+
+.content2 {
+    max-width: 900px;
+}
+
+.content2 h2 {
+    color: #001C62;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.content2 p {
+    font-size: 16px;
+    color: black;
+    margin: 5px 0;
+}
+
+.content2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content2 ul li {
+    font-size: 14px;
+    color: black;
+    margin: 5px 0;
+}
+
+#pulerihamarakalum {
+    position: absolute;
+    top: 100px;
+}
+
+#pul1 {
+    margin-left: 124px;
+    margin-top: 70px;
+}
+
+#pul2 {
+    margin-left: 760px;
+    margin-top: 90px;
+}
+
+#pul3 {
+    margin-left: 340px;
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+
+.blueicon {
+    height: 7px;
+    width: 7px;
+    margin-left: 20px;
+    background-color:#001C62;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#slaydner {
+    margin-left: 20px;
+}
+
+#jamket {
+    font-size: 18px;
+}
+
+
+
+
+
+/* Նոմինացիաների հատված */
+.awards-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 156px;
+    width: 100%;
+    background-color: #000E2B;
+    text-align: left;
+}
+
+/* Տեքստային բլոկ */
+.nominacianer {
+    max-width: 400px;
+}
+
+.nominacianer h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: #e6a800;
+}
+
+.nominacianer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nominacianer ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Գավաթների հատված */
+.trophies {
+    display: flex;
+    gap: 20px;
+}
+
+.trophies img {
+    width: 144px;
+    height: 202px;
+    object-fit: cover;
+}
+
+#trophie1 {
+    width: 216px;
+    height: 303px;
+    object-fit: cover;
+    margin: 0 48px;
+}
+
+
+
+
+/* Տարածված կոնտեյներ */
+.grancvelform {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Վկայագրի հատված */
+.certificate img {
+    height: 100vh;
+    object-fit: cover;
+    margin-top: 4px;
+}
+
+/* Գրանցման ձև */
+.registration {
+    background: white;
+    padding: 30px 118px;
+    text-align: center;
+}
+
+.registration h2 {
+    color: #001C62;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 504px;
+    height: 56px;
+    padding: 16px 24px;
+    margin: 10px 0;
+    border: none;
+    background: #F1F3F5;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+#formbtn {
+    width: 160px;
+    height: 56px;
+    background-color: #FFC107;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+#formbtn:hover {
+    background: #E6A800;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #0A1636; /* Մուգ կապույտ */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Logo */
+.logofooter img {
+    width: 100%;
+    height: 30px;
+}
+
+.logofooter h1 {
+    font-size: 23px;
+}
+
+/* Հեղինակային իրավունք */
+.copyright p {
+    font-size: 14px;
+}

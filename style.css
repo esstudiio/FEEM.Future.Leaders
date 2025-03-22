@@ -1,0 +1,256 @@
+@media (min-width: 0px) and (max-width: 480px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .logo img {
+        height: 35px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+
+
+
+    .hero {
+        height: 70vh;
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+
+
+
+    .goal-section h2 {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .goal-box {
+        width: 95%;
+        padding: 14px;
+    }
+
+    .goal-box p {
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 13px;
+    }
+
+
+
+
+    .container {
+        padding: 40px;
+        text-align: left;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container div img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin-right: 150px;
+    }
+
+    .text-content h2 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .text-content p {
+        font-size: 12px;
+    }
+
+    #absLogo {
+        position: absolute;
+        top: 270px;
+        left: 230px;
+    }
+
+    #absLogo img {
+        width: 120px;
+        height: 120px;
+    }
+
+
+
+
+    #container2 {
+        padding: 0 40px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .content2 h2 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .content2 p, .content2 ul li {
+        font-size: 8px;
+    }
+
+    .blueicon {
+        height: 5px;
+        width: 5px;
+        margin-left: 10px;
+    }
+
+    .icon {
+        font-size: 8px;
+    } 
+
+    #jamket {
+        font-size: 10px;
+    }
+
+    #pul1 {
+        width: 170px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    #pul2 {
+        width: 150px;
+        margin-top: 0px;
+        margin-left: 190px;
+    }
+
+    #pul3 {
+        width: 150px;
+        margin-top: -10px;
+        margin-left: 85px;
+    }
+
+    #pulerihamarakalum {
+        top: 70px;
+    }
+
+    #pulerihamarakalum img {
+        width: 180px;
+        height: 250px;
+    }
+
+
+
+    .awards-section {
+        padding: 40px 20px;
+    }
+
+    .nominacianer h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .nominacianer ul li {
+        font-size: 12px;
+    }
+
+    .trophies {
+        gap: 8px;
+    }
+
+    .trophies img {
+        display: none;
+    }
+
+    #trophie1 {
+        display: block;
+        width: 100px;
+        height: 150px;
+        margin: 0 12px;
+    }
+
+    .trophies img {
+        width: 90px;
+        height: 130px;
+    }
+
+
+
+
+    .grancvelform {
+        height: 600px;
+    }
+
+    .certificate img {
+        display: none;
+    }
+
+    .registration {
+        padding: 20px;
+    }
+
+    .registration h2 {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+
+    input {
+        width: 280px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    #formbtn {
+        width: 130px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .footer-container {
+        padding-right: 40px;
+    }
+}
+
+#warning-message {
+    display: none;
+}
+
+/* Երբ էկրանն ունի 481px-ից 1024px լայնություն՝ հաղորդագրությունը ցուցադրվում է */
+@media (min-width: 481px) and (max-width: 1024px) {
+    #warning-message {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        padding: 20px;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+    #all {
+        display: none;
+    }
+}
